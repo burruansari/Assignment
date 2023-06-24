@@ -1,0 +1,14 @@
+Coding 15
+
+void main()
+{
+ List <int> number = [1,-4,6,8];
+ 
+ var nega = number.where((element) => element.isNegative);
+
+ print(nega);
+
+var pos = number.where((element) => element >= 0);
+
+print(pos.toList());
+ }

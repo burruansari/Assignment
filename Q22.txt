@@ -1,0 +1,21 @@
+Coding 22
+
+void main()
+{
+ Map<String, int> cart = {
+  'apple': 5,
+  'mango': 7,
+  'Banana': 12
+};
+
+if(cart.containsKey('apple'))
+{
+  print('Product Found');
+}
+else{
+  print("Product not found");
+}
+
+
+ }
+

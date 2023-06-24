@@ -1,0 +1,21 @@
+Coding 20
+
+void main()
+{
+ Map user = {
+  'Brand': 'Toyota',
+  'Color': 'Red',
+  'isSedan': true
+};
+
+if(user['isSedan'] == true && user['Color'] == "Blue")
+{
+  print("Match");
+}
+else
+{
+  print("No match");
+}
+
+
+ }

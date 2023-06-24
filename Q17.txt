@@ -1,0 +1,11 @@
+Coding 17
+
+void main()
+{
+ var number = [1,4,6,8];
+ 
+ var squared = number.map((e) => e*e);
+
+ print(squared.toList());
+
+ }

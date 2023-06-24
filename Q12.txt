@@ -1,0 +1,10 @@
+Coding 12
+
+void main()
+{
+ List <String> name = ["Anwar","Abrar","Burhan","Ali","Zulfiqar"];
+ 
+ List new_list = name.reversed.toList();
+
+ print(new_list);
+ }

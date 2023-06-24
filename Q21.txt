@@ -1,0 +1,20 @@
+Coding 21
+void main()
+{
+ Map user = {
+  'name': 'Burhan',
+  'isAdmin': false,
+  'isActive': false
+};
+
+if(user['isAdmin'] == true && user['isActive'] == true)
+{
+  print("Active Admin");
+}
+else
+{
+  print("Not an Active Admin");
+}
+
+
+ }

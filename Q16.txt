@@ -1,0 +1,14 @@
+Coding 16
+
+void main()
+{
+ List <int> number = [1,-4,6,3];
+ 
+ var odd = number.where((element) => element.isOdd);
+
+ print(odd);
+
+var even = number.where((element) => element.isEven);
+
+print(even.toList());
+ }
