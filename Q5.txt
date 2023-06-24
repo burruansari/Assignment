@@ -1,0 +1,13 @@
+Coding 5
+
+void main() {
+ 
+  Map map_name = {
+    "Name" : "Ali", 
+    "Phone" : "1234"
+    };
+  var map_cond =
+  map_name.keys.where((e) => e.length == 4);
+  
+  print(map_cond.toList());
+}

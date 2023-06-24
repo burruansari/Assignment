@@ -1,0 +1,7 @@
+Coding 1.
+
+void main() {
+  
+  List list_name = ["Ali","Ahmed","Anwar","Akbar","Asghar","Aashir"];
+  print(list_name);
+}

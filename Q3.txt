@@ -1,0 +1,17 @@
+Coding 3
+
+void main() {
+
+  List <String> list_days=[];
+  
+  list_days.addAll(["Sunday","Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday"]);
+  print(list_days);
+  
+  
+  do {
+    list_days.removeLast();
+  print(list_days);
+     }
+  while (list_days.isNotEmpty == true);
+
+}

@@ -1,0 +1,11 @@
+Coding 4
+
+void main() {
+ 
+  List list_num = [121, 12, 33, 14, 3];
+  
+  list_num.sort();
+  
+  print("Smallest value: ${list_num.first}");
+  print("Largest value: ${list_num.last}");
+}

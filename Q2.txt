@@ -1,0 +1,9 @@
+Coding 2.
+
+void main() {
+  
+  List <String> list_days=[];
+  
+  list_days.addAll(["Sunday","Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday"]);
+  print(list_days);
+}
