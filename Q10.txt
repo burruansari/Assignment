@@ -1,0 +1,9 @@
+Coding 10 
+
+void main()
+{
+ List <String> list = ["Ali","Asghar","Anwar","Abrar","Asghar","Abrar","Arif","Ali"];
+
+print(list.toSet().toList());
+
+ }

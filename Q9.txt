@@ -1,0 +1,11 @@
+Coding 9
+
+void main()
+{
+ List <int> list = [12,54,6534,876,2343,987];
+
+ list.sort();
+ print(list.last);
+
+
+}

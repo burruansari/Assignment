@@ -1,0 +1,21 @@
+Coding19
+
+void main()
+{
+ Map user = {
+  'Name': 'Burhan',
+  'Price': 2500,
+  'Quantity': 1
+};
+
+if(user['Quantity'] > 0 )
+{
+  print("Instock");
+}
+else
+{
+  print("Out of stock");
+}
+
+
+ }
